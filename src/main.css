@@ -40,3 +40,8 @@ h2,
 h3 {
     text-align: center;
 }
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
