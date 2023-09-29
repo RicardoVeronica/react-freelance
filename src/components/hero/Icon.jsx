@@ -7,11 +7,11 @@ const Icon = () => {
         width="80"
         height="80"
         viewBox="0 0 24 24"
-        stroke-width="1"
+        strokeWidth="1"
         stroke="#ffec00"
         fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
         <path d="M12 18.5l-3 -1.5l-6 3v-13l6 -3l6 3l6 -3v7.5"></path>
