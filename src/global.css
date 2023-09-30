@@ -50,20 +50,25 @@ h3 {
 .button {
     width: 75%;
     margin-top: 1.5rem;
-    padding: 1rem 3rem;
+    border: none;
     border-radius: .5rem;
-    color: var(--white);
-    background-color: var(--secondary);
+    padding: 1rem 3rem;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
+    color: var(--white);
+    background-color: var(--secondary);
 }
 
 @media (min-width: 768px) {
     .button {
         width: auto;
     }
+}
+
+.button:hover {
+    cursor: pointer;
 }
 
 .shadow {

@@ -2,6 +2,8 @@ import LaravelIcon from "./icons/LaravelIcon"
 import ReactIcon from "./icons/ReactIcon"
 import WordpressIcon from "./icons/WordpressIcon"
 
+import Contact from "../contact/Contact"
+
 import Service from "./Service"
 
 import "./main.css"
@@ -44,6 +46,8 @@ const Main = () => {
             </section>
           </div>
         </div>
+
+        <Contact />
       </main >
     </>
   )
