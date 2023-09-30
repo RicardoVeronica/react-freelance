@@ -1,6 +1,7 @@
 .hero {
     position: relative;
     height: 45rem;
+    margin-bottom: 1.5rem;
     background-image: url("../../../public/portfolio.webp");
     background-attachment: fixed;
     background-position: right;

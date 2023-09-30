@@ -1,0 +1,40 @@
+.main {
+    padding: 2rem;
+    border-radius: 1rem;
+    background-color: var(--white);
+}
+
+@media (min-width: 768px) {
+    .main__services {
+        display: grid;
+        grid: repeat(1, 1fr) / repeat(3, 1fr);
+        column-gap: 1rem;
+    }
+}
+
+.main__service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__service h3 {
+    color: var(--secondary);
+    font-weight: normal;
+}
+
+.main__service p {
+    line-height: 2;
+    text-align: center;
+}
+
+.main__service__icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    background-color: var(--primary);
+}

@@ -1,9 +1,11 @@
-const Service = ({ title, description, icon }) => {
+const Service = ({ title, icon, description }) => {
   return (
     <>
       <h3>{title}</h3>
 
-      {icon}
+      <div className="main__service__icon">
+        {icon}
+      </div>
 
       <p>{description}</p>
     </>
